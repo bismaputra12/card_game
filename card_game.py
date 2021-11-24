@@ -39,8 +39,8 @@ def game():
     twenty_eight = 'cium kaki orang di sebelah kiri'
     twemty_nine = 'muter 8x dan lari 10m'
     thirty = 'cabut rambut 1 helai'
-    thirty_three = 'ayam apa yang yang bikin sebel?'
-    pick_a_card = random.randint(1, 25)
+    thirty_three = 'sebut 1 mantan yg kamu paling sayang'
+    pick_a_card = random.randint(1, 33)
     if pick_a_card == 1:
         return one
     elif pick_a_card == 2:
